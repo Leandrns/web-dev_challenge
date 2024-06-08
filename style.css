@@ -103,7 +103,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor-neutra-10-);
+    background-color: var(--azul02);
     font-size: 0.9rem;
     padding: 1rem;
     width: 100%;
@@ -125,6 +125,8 @@
 
     .footer-logo {
         margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer-social-media {
