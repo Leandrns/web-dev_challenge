@@ -35,11 +35,13 @@ header a {
 .link-pages {
     display: flex;
     gap: 3rem;
+    
 }
 
 .item-page {
     padding: 10px;
     transition: all .3s;
+    color: #f5f5f5;
 }
 
 .item-page:hover {
