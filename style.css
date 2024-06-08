@@ -10,3 +10,13 @@
     --azul04: #087CA7;
     --azul05: #004385;
 }
+
+::-webkit-scrollbar{
+    background-color: var(--azul01);
+    width: 2vh;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--azul02);
+    border: #028eb1 solid 1.5px;
+}
