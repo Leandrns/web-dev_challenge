@@ -9,3 +9,9 @@ toggleBtn.onclick = function () {
     const isOpen = menuDropDown.classList.contains('open')
     toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
 }
+
+const chk = document.getElementById('chk')
+
+chk.addEventListener('change', () => {
+    document.body.classList.toggle('dark')
+})
