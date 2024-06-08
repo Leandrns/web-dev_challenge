@@ -78,6 +78,7 @@ nav .toggle_btn {
 }
 
 .menu_dropdown {
+    margin-top: 30px;
     display: none;
     position: absolute;
     right: 2rem;
@@ -109,7 +110,7 @@ nav .toggle_btn {
 }
 
 /* RESPONSIVIDADE */
-@media(max-width: 1150px) {
+@media(max-width: 1200px) {
 
     nav .link-pages,
     nav .register {
