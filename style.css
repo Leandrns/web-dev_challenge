@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #f5f5f5;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -32,11 +33,12 @@
     background: rgb(3,26,107);
     background: linear-gradient(0deg, rgba(3,26,107,1) 0%, rgba(17,114,209,1) 63%, rgba(5,146,220,1) 100%);
     padding-top: 50px;
-    position: fixed;
     width: 100%;
     bottom: 0;
     font-family: "michroma";
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+
+    position:fixed;
 }
 
 .footer-content {
@@ -44,6 +46,7 @@
     justify-content: space-between;
     padding: 0 90px 0 90px;
     margin: auto;
+    
 }
 
 .footer-logo {

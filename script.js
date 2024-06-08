@@ -15,3 +15,19 @@ const chk = document.getElementById('chk')
 chk.addEventListener('change', () => {
     document.body.classList.toggle('dark')
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    const linkFooter = document.querySelector('.footer-link-page');
+    
+    linkFooter.addEventListener('click', function(event) {
+        event.preventDefault(); 
+        
+        const secao1 = document.querySelector('#secao1');
+        const secao2 = document.querySelector('#secao2');
+        const secao3 = document.querySelector('#secao3');
+        
+        secao1.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest'});
+    });
+    
+});
