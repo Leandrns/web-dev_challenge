@@ -102,7 +102,7 @@
     text-align: center;
 }
 
-.footer-links:hover {
-    color: black;
-
+.footer-link:hover{
+    font-weight: bold;
+    border-color: var(--azul05);
 }
