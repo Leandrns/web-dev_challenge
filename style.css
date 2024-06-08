@@ -101,3 +101,8 @@
     width: 100%;
     text-align: center;
 }
+
+.footer-links:hover {
+    color: black;
+
+}
