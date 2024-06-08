@@ -8,6 +8,7 @@
     --azul03: #033860;
     --azul04: #087CA7;
     --azul05: #004385;
+    --azul06: #1172d1;
 }
 
 body {
@@ -17,9 +18,14 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    padding: 1rem 2rem;
+    z-index: 1;
     width: 100%;
-    background-color: var(--azul02);
     font-family: "Michroma";
+    font-weight: bold;
+    background: linear-gradient(180deg, rgba(3,26,107,1) 0%, rgba(17,114,209,1) 63%, rgba(5,146,220,1) 100%);
 }
 
 header li {
@@ -41,7 +47,6 @@ header a {
 }
 
 .item-page:hover {
-    font-weight: bold;
     color: var(--cor-neutra-30-);
 }
 
@@ -55,7 +60,6 @@ header a {
 }
 
 .register:hover {
-    font-weight: bold;
     border-color: var(--azul05);
 }
 
@@ -64,7 +68,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 40px;
 }
 
 nav .toggle_btn {
@@ -75,21 +78,22 @@ nav .toggle_btn {
 }
 
 .menu_dropdown {
+    margin-top: 30px;
     display: none;
     position: absolute;
     right: 2rem;
     top: 92px;
     width: 300px;
     height: 0;
-    background: var(--azul04);
+    background: var(--azul06);
     backdrop-filter: blur(18px);
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
     transition: all .4s ease;
 }
 
 .menu_dropdown.open {
-    height: 294px;
+    height: 300px;
 }
 
 .menu_dropdown li {
@@ -106,7 +110,7 @@ nav .toggle_btn {
 }
 
 /* RESPONSIVIDADE */
-@media(max-width: 1150px) {
+@media(max-width: 1200px) {
 
     nav .link-pages,
     nav .register {
