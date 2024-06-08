@@ -9,3 +9,7 @@
     --azul04: #087CA7;
     --azul05: #004385;
 }
+
+nav {
+    display: flex;
+}

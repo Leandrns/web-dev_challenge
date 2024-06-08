@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
 :root{
     --cor-neutra-0-: #0e0c0c;
     --cor-neutra-10-: #171717;
