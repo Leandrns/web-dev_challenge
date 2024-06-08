@@ -15,6 +15,7 @@
     --azul03: #033860;
     --azul04: #087CA7;
     --azul05: #004385;
+    --azul06: #1172d1;
 }
 
 ::-webkit-scrollbar{
@@ -27,12 +28,16 @@
     border: #028eb1 solid 1.5px;
 }
 
-body{
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--cor-neutra-40-);
     transition: background 0.2s linear;
 }
 
 body.dark{
-    background: #232c35;
+    background: #171717;
 }
 
 .checkbox{
@@ -70,16 +75,27 @@ body.dark{
     transform: translateX(24px);
 }
 
+body.dark{
+    color: var(--cor-neutra-0-);
+}
+
+body.dark p{
+    color: var(--cor-neutra-40-);
+}
+
 .fa-moon{
-    color: var(--azul05);
+    color: var(--azul06);
 }
 
 .fa-sun{
     color: var(--azul01);
 }
 
+
+
 .footer {
-    background-color: var(--azul05);
+    background: rgb(3,26,107);
+    background: linear-gradient(0deg, rgba(3,26,107,1) 0%, rgba(17,114,209,1) 63%, rgba(5,146,220,1) 100%);
     padding-top: 50px;
     position: fixed;
     width: 100%;
