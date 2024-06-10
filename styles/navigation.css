@@ -135,4 +135,10 @@ nav .toggle_btn {
         left: 2rem;
         width: unset;
     }
+    header{
+        padding: 5px;
+    }
+    .label{
+        margin: 0px;
+    }
 }
