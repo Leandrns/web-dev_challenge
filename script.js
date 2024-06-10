@@ -16,6 +16,8 @@ chk.addEventListener('change', () => {
     document.body.classList.toggle('dark')
 })
 
+
+//transição de links internos
 document.addEventListener('DOMContentLoaded', function() {
 
     const linkFooter = document.querySelector('.footer-link-page');
