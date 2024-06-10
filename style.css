@@ -273,7 +273,7 @@ body.dark .slider {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--azul02);
+    background-color: var(--cor-neutra-10-);
     font-size: 0.9rem;
     padding: 1rem;
     width: 100%;
