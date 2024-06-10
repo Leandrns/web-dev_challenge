@@ -4,20 +4,18 @@ const toggleBtnIcon = document.querySelector('.toggle_btn i');
 const menuDropDown = document.querySelector('.menu_dropdown');
 
 toggleBtn.onclick = function () {
-    menuDropDown.classList.toggle('open')
+    menuDropDown.classList.toggle('open');
 
-    const isOpen = menuDropDown.classList.contains('open')
-    toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+    const isOpen = menuDropDown.classList.contains('open');
+    toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
 }
 
-const chk = document.getElementById('chk')
+const chk = document.getElementById('chk');
 
 chk.addEventListener('change', () => {
-    document.body.classList.toggle('dark')
+    document.body.classList.toggle('dark');
 })
 
-
-//transição de links internos
 document.addEventListener('DOMContentLoaded', function() {
 
     const linkFooter = document.querySelector('.footer-link-page');

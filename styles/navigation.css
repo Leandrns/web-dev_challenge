@@ -83,8 +83,8 @@ nav .toggle_btn {
     top: 92px;
     width: 300px;
     height: 0;
-    background: var(--azul06);
-    backdrop-filter: blur(18px);
+    background: #1171d19f;
+    backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
     transition: all .4s ease;
@@ -114,7 +114,7 @@ nav .toggle_btn {
 }
 
 /* RESPONSIVIDADE */
-@media(max-width: 1200px) {
+@media(max-width: 1240px) {
 
     nav .link-pages,
     nav .register {
@@ -134,5 +134,11 @@ nav .toggle_btn {
     .menu_dropdown {
         left: 2rem;
         width: unset;
+    }
+    header{
+        padding: 5px;
+    }
+    .label{
+        margin: 0px;
     }
 }
