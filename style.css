@@ -206,6 +206,7 @@ body.dark .slider {
     bottom: 0;
     font-family: "michroma";
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    
 }
 
 .footer-content {
@@ -213,7 +214,7 @@ body.dark .slider {
     justify-content: space-between;
     padding: 0 90px 0 90px;
     margin: auto;
-    
+    width: 100%;
 }
 
 .footer-logo {
