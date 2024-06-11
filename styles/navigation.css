@@ -11,11 +11,7 @@
     --azul06: #1172d1;
 }
 
-body {
-    display: flex;
-    width: 100%;
-    background-color: var(--cor-neutra-40-);
-}
+
 
 header {
     position: sticky;
@@ -39,11 +35,13 @@ header a {
 .link-pages {
     display: flex;
     gap: 3rem;
+    
 }
 
 .item-page {
     padding: 10px;
     transition: all .3s;
+    color: #f5f5f5;
 }
 
 .item-page:hover {
@@ -85,8 +83,8 @@ nav .toggle_btn {
     top: 92px;
     width: 300px;
     height: 0;
-    background: var(--azul06);
-    backdrop-filter: blur(18px);
+    background: #1171d19f;
+    backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
     transition: all .4s ease;
@@ -109,8 +107,14 @@ nav .toggle_btn {
     justify-content: center;
 }
 
+.direita{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 /* RESPONSIVIDADE */
-@media(max-width: 1200px) {
+@media(max-width: 1240px) {
 
     nav .link-pages,
     nav .register {
@@ -130,5 +134,11 @@ nav .toggle_btn {
     .menu_dropdown {
         left: 2rem;
         width: unset;
+    }
+    header{
+        padding: 5px;
+    }
+    .label{
+        margin: 0px;
     }
 }
