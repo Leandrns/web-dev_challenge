@@ -1,4 +1,4 @@
-<h2 align="center">Sprint 3 Web Development - Challenge Tech Mahindra</h2>
+<h2 align="center">Sprint 1 Web Development - Challenge Tech Mahindra</h2>
 <div align="center" width="100px">
 
 ![image](https://github.com/Leandrns/python-challenge/assets/162051430/704013e4-e8d1-4782-ac57-2ac59443731b)
